@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.section_padding {
+    position: relative;
+}
+
+.section_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 61%;
+    background: #12c0c8;
+}
+
+.section_bg .container {
+    position: relative;
+}
+.contact-form {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.section_bg:after {
+    display: block;
+    background: red;
+}
+
+input[type="text"] {
+}
+.contact-form h2 {
+    color: white;
+    position: absolute;
+    top: 227px;
+    left: -140px;
+    transform: rotate(90.5deg);
+    opacity: 0.5;
+}
+.contact-form .row .col-md-6 {
+    margin-bottom: 25px;
+}
+input.make_appointment {
+    width: 259px;
+    color: #22c0b1;
+    background: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.text_form {
+    padding-top: 129px;
+    padding-left: 104px;
+}
+
+.text_form ul li {
+    list-style: none;
+    font-size: 21px;
+    padding: 4px 0px;
+}
+
+.text_form ul li i {
+    color: green;
+    padding-right: 8px;
+    font-size: 20px;
+}
+
+.text_form p input {
+    color: white;
+    background: #56cdd3;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.text_form h2 {
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+textarea#massage {
+    height: 144px;
+}
